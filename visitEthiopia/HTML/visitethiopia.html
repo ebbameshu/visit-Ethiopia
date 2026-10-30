@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Discover Ethiopia's history, culture, landscapes, and unforgettable destinations."
+    />
+
+    <title>Visit Ethiopia | Explore Ethiopia</title>
+
+    <!-- Your stylesheet: write the CSS yourself -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../assets/CSS/newVisitEthiopia.css" />
+    <script src="../assets/JS/navigation.js" defer></script>
+    <script src="../assets/JS/theme-toggle.js" defer></script>
+    <script src="../assets/JS/vendor/three.min.js" defer></script>
+    <script src="../assets/JS/unity-emblem.js" defer></script>
+  </head>
+
+  <body>
+    <!-- ==================== HEADER ==================== -->
+    <header class="site-header" id="home">
+      <a class="site-logo" href="#home" aria-label="Visit Ethiopia home">
+        <div class="logoHeader">
+          <span class="logo-visit">Visit </span>
+          <span class="logo-Ethiopia">Ethiopia </span>
+        </div>
+        <img
+          class="site-logo-image"
+          src="../assets/image/image6.png"
+          alt="Ethiopian flag"
+        />
+      </a>
+      <div class="nav-menu">
+        <nav
+          class="site-navigation"
+          id="primary-navigation"
+          aria-label="Main navigation"
+        >
+          <button
+            class="menu-close"
+            type="button"
+            aria-label="Close navigation menu"
+          >
+            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+          </button>
+          <ul class="navigation-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#destinations">Latest News</a></li>
+            <li><a href="#adventure">Adventure</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <button
+          class="menu-toggle"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+        >
+          <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+        <button
+          class="theme-toggle"
+          type="button"
+          aria-label="Switch to dark theme"
+          aria-pressed="false"
+        >
+          <i class="fa-solid fa-moon" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="menu-overlay" aria-hidden="true"></div>
+    </header>
+
+    <main class="main-section">
+      <!-- ==================== HERO ==================== -->
+      <section class="hero-section" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <span class="never">Never Stop</span>
+          <br />
+          <span class="explore">Exploring</span>
+
+          <p class="hero-description">
+            Discover Ethiopia's rich history, vibrant cultures, and
+            extraordinary landscapes.
+          </p>
+
+          <a class="hero-button" href="#destinations"> Get Started </a>
+        </div>
+        <div class="hero-unity-emblem" aria-hidden="true">
+          <div class="unity-emblem-stage"></div>
+          <svg
+            class="unity-emblem-art"
+            viewBox="0 0 360 340"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <linearGradient id="unity-green" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#b5e28c" />
+                <stop offset=".45" stop-color="#159447" />
+                <stop offset="1" stop-color="#075b37" />
+              </linearGradient>
+              <linearGradient id="unity-yellow" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#fff3a0" />
+                <stop offset=".48" stop-color="#f3bd38" />
+                <stop offset="1" stop-color="#b87818" />
+              </linearGradient>
+              <linearGradient id="unity-red" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#ff9a79" />
+                <stop offset=".48" stop-color="#d83b36" />
+                <stop offset="1" stop-color="#8d2028" />
+              </linearGradient>
+              <linearGradient id="unity-map" x1=".2" y1="0" x2=".8" y2="1">
+                <stop offset="0" stop-color="#fff0bd" />
+                <stop offset=".35" stop-color="#d9a64e" />
+                <stop offset=".72" stop-color="#a96c2d" />
+                <stop offset="1" stop-color="#684426" />
+              </linearGradient>
+              <linearGradient id="unity-map-edge" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#fff4d2" stop-opacity=".85" />
+                <stop offset="1" stop-color="#57381f" stop-opacity=".8" />
+              </linearGradient>
+              <filter
+                id="unity-shadow"
+                x="-30%"
+                y="-30%"
+                width="160%"
+                height="170%"
+                color-interpolation-filters="sRGB"
+              >
+                <feGaussianBlur in="SourceAlpha" stdDeviation="7" />
+                <feOffset dy="9" />
+                <feComponentTransfer>
+                  <feFuncA type="linear" slope=".42" />
+                </feComponentTransfer>
+                <feMerge>
+                  <feMergeNode />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+            </defs>
+
+            <g fill="none" stroke-linecap="round">
+              <g class="unity-orbit unity-orbit--green">
+                <g transform="rotate(-16 180 170)">
+                  <ellipse
+                    cx="180"
+                    cy="170"
+                    rx="112"
+                    ry="139"
+                    stroke="#281d15"
+                    stroke-opacity=".62"
+                    stroke-width="19"
+                  />
+                  <ellipse
+                    cx="180"
+                    cy="170"
+                    rx="112"
+                    ry="139"
+                    stroke="url(#unity-green)"
+                    stroke-width="12"
+                  />
+                  <path
+                    d="M81 120C95 91 119 72 146 61"
+                    stroke="#e2f5c5"
+                    stroke-opacity=".78"
+                    stroke-width="2.5"
+                  />
+                </g>
+              </g>
+              <g class="unity-orbit unity-orbit--red">
+                <g transform="rotate(22 180 170)">
+                  <ellipse
+                    cx="180"
+                    cy="170"
+                    rx="145"
+                    ry="58"
+                    stroke="#281d15"
+                    stroke-opacity=".62"
+                    stroke-width="19"
+                  />
+                  <ellipse
+                    cx="180"
+                    cy="170"
+                    rx="145"
+                    ry="58"
+                    stroke="url(#unity-red)"
+                    stroke-width="12"
+                  />
+                  <path
+                    d="M47 148C58 120 82 101 111 93"
+                    stroke="#ffd0b6"
+                    stroke-opacity=".76"
+                    stroke-width="2.5"
+                  />
+                </g>
+              </g>
+              <g class="unity-orbit unity-orbit--yellow">
+                <g transform="rotate(-31 180 170)">
+                  <ellipse
+                    cx="180"
+                    cy="170"
+                    rx="128"
+                    ry="91"
+                    stroke="#281d15"
+                    stroke-opacity=".58"
+                    stroke-width="19"
+                  />
+                  <ellipse
+                    cx="180"
+                    cy="170"
+                    rx="128"
+                    ry="91"
+                    stroke="url(#unity-yellow)"
+                    stroke-width="12"
+                  />
+                  <path
+                    d="M65 136C80 102 106 79 137 69"
+                    stroke="#fff4be"
+                    stroke-opacity=".78"
+                    stroke-width="2.5"
+                  />
+                </g>
+              </g>
+            </g>
+
+            <g filter="url(#unity-shadow)">
+              <path
+                d="M142 73 164 61 181 70 199 66 210 82 231 84 239 98 257 101 263 117 251 128 268 142 256 154 267 164 251 174 259 186 280 196 300 214 286 220 270 213 254 208 245 221 233 226 230 243 215 247 203 258 187 250 175 260 160 248 145 253 137 239 120 236 115 222 99 218 105 204 93 192 101 179 88 167 101 154 95 140 109 129 104 114 120 107 122 94 137 88 139 77Z"
+                transform="translate(0 5)"
+                fill="#4a301c"
+                opacity=".68"
+              />
+              <path
+                d="M142 73 164 61 181 70 199 66 210 82 231 84 239 98 257 101 263 117 251 128 268 142 256 154 267 164 251 174 259 186 280 196 300 214 286 220 270 213 254 208 245 221 233 226 230 243 215 247 203 258 187 250 175 260 160 248 145 253 137 239 120 236 115 222 99 218 105 204 93 192 101 179 88 167 101 154 95 140 109 129 104 114 120 107 122 94 137 88 139 77Z"
+                fill="url(#unity-map)"
+                stroke="url(#unity-map-edge)"
+                stroke-linejoin="round"
+                stroke-width="3"
+              />
+              <path
+                d="m151 82 15-8 12 7 15-4 12 14 19 2 6 13 16 3 4 9-12 11 15 13-11 10 13 10-13 9 10 11 18 9 13 12-10 3-17-8-16-5-8 13-12 4-2 15-13 4-10 10-14-7-11 9-13-10-12 5-7-12-15-2-5-12-12-3 5-14-10-10 7-13-11-11 12-11-6-12 13-9-5-13 13-7 1-12Z"
+                fill="none"
+                stroke="#fff1cd"
+                stroke-opacity=".3"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <!-- ==================== DESTINATIONS ==================== -->
+      <section
+        class="destinations-section"
+        id="destinations"
+        aria-labelledby="destinations-title"
+      >
+        <div class="section-heading">
+          <h2 class="section-title" id="destinations-title">
+            Explore Ethiopia
+          </h2>
+          <p class="section-description">
+            Discover remarkable historical sites, cultural treasures, and
+            breathtaking natural landscapes.
+          </p>
+        </div>
+
+        <div class="destinations-grid" id="adventure">
+          <!-- Destination 1 -->
+          <article class="destination-card">
+            <img
+              class="destination-image"
+              src="../assets/image/image2.png"
+              alt="Abba Jifar Palace in Jimma"
+              loading="lazy"
+            />
+
+            <div class="destination-content">
+              <h3 class="destination-title">Abba Jifar Palace</h3>
+
+              <p>
+                Before being incorporated into the central Christian Empire of
+                Ethiopia, Jimma was one and the strongest of the five autonomous
+                Gibe kingdoms of the Oromo people under the leadership of Abba
+                Jifar Abba Gomal, best known as king Abba Jifar also known by
+                his Islamic name (Sultan Muhammad Dawud Ibn Ibrahim) of Jimma
+              </p>
+
+              <a class="destination-link" href="#contact"> Read More </a>
+            </div>
+          </article>
+
+          <!-- Destination 2 -->
+          <article class="destination-card">
+            <img
+              class="destination-image"
+              src="../assets/image/image7.png"
+              alt="Dirre Sheikh Hussein religious heritage site"
+              loading="lazy"
+            />
+
+            <div class="destination-content">
+              <h3 class="destination-title">Dirre Sheikh Hussein</h3>
+
+              <p>
+                Dirre Sheik Hussein (Shrine): It is situated on the border of
+                West Harargé and Balé Zones at the Southern edge of Web River.
+                It is 178 km far from Robé along the all weather road that
+                passes through Jarra, and Dallo Sabro towns. The Shrine is named
+                after an ancient muslim holy man (religious leader) called
+                Sheikh Nur Husein bin Malka or bin Ibrahim who was reputed for
+                his religious teachings, high devotion and remarkable miraculous
+                deeds
+              </p>
+              <a class="destination-link" href="#contact"> Read More </a>
+            </div>
+          </article>
+
+          <!-- Destination 3 -->
+          <article class="destination-card">
+            <img
+              class="destination-image"
+              src="../assets/image/imag3.png"
+              alt="Cultural landscapes of Ethiopia's Omo Valley"
+              loading="lazy"
+            />
+
+            <div class="destination-content">
+              <h3 class="destination-title">Omo Valley</h3>
+              <p>
+                Itinerary Start and end in Addis Ababa! With the In-depth
+                Cultural tour Cultural Trip to the Omo Valley Tribes of
+                Ethiopia, you have a 7 days tour package taking you through
+                Addis Ababa, Ethiopia and 6 other destinations in Ethiopia.
+                Cultural Trip to the Omo Valley Tribes of Ethiopia includes
+                accommodation, an expert guide, meals, transport and more.
+              </p>
+
+              <a class="destination-link" href="#contact"> Read More </a>
+            </div>
+          </article>
+
+          <!-- Destination 4 -->
+          <article class="destination-card">
+            <img
+              class="destination-image"
+              src="../assets/image/image1.png"
+              alt="Historic destinations in Harar and Dire Dawa"
+              loading="lazy"
+            />
+
+            <div class="destination-content">
+              <h3 class="destination-title">Harar and Dire Dawa</h3>
+              <p>
+                Itinerary Start and end in Addis Ababa! With the In-depth
+                Cultural tour 10 Days Ethiopia Northern Historic Tour, you have
+                a 10 days tour package taking you through Addis Ababa, Ethiopia
+                and 5 other destinations in Ethiopia. 10 Days Ethiopia Northern
+                Historic Tour includes accommodation, flights, an expert guide,
+                meals, transport and more.
+              </p>
+              <a class="destination-link" href="#contact"> Read More </a>
+            </div>
+          </article>
+
+          <!-- Destination 5 -->
+          <article class="destination-card">
+            <img
+              class="destination-image"
+              src="../assets/image/image5.png"
+              alt="Ancient Aksumite stelae in Axum"
+              loading="lazy"
+            />
+
+            <div class="destination-content">
+              <h3 class="destination-title">Ancient Axum</h3>
+
+              <p>
+                The ancient kingdom of Aksum was located in present-day
+                Ethiopia. This wealthy African civilization celebrated its
+                achievements with monuments like King Ezana's stela in Stelae
+                Park, Ethiopia.
+              </p>
+              <a class="destination-link" href="#contact"> Read More </a>
+            </div>
+          </article>
+
+          <!-- Destination 6 -->
+          <article class="destination-card">
+            <img
+              class="destination-image"
+              src="../assets/image/image4.png"
+              alt="Mountain scenery in Simien Mountains National Park"
+              loading="lazy"
+            />
+
+            <div class="destination-content">
+              <h3 class="destination-title">Simien Mountains</h3>
+
+              <p>
+                The Simien Mountains National Park in Northern Ethiopia is an
+                exotic setting with unique wildlife and breath-taking views on a
+                landscape shaped by nature and traditional agriculture. The
+                natural beauties of this region have always filled visitors from
+                Ethiopia and abroad with awe. Gentle highland ridges at
+                altitudes above 3600 meters above sea level (m asl), covered
+                with grasses, isolated trees (Erica &bored) and the bizarre
+                Giant Lobelia (Lobelia rhynchopetalum) are found on the high
+                plateau that ends abruptly at 1000- to 2000-m deep escarpments.
+              </p>
+
+              <a class="destination-link" href="#contact"> Read More </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ==================== PACKAGES ==================== -->
+      <section class="packages-section" id="packages">
+        <div class="section-heading">
+          <h2 class="section-title">Find Your Ethiopia</h2>
+          <p class="section-description">
+            Start with the experiences that speak to you. These themes are
+            inspiration for exploring, not bookable tour packages.
+          </p>
+        </div>
+
+        <div class="packages-content">
+          <article class="package-card">
+            <img
+              class="package-image"
+              src="../assets/image/image5.png"
+              alt="Ancient stone stelae at the historic site of Axum"
+              loading="lazy"
+            />
+            <div class="package-content">
+              <p class="package-category">History &amp; Heritage</p>
+              <h3 class="package-title">Stories carved in stone</h3>
+              <p>
+                Follow Ethiopia's long history through ancient Axum, the rock-
+                hewn churches of Lalibela, and landmarks shaped by generations.
+              </p>
+              <a class="package-link" href="#destinations">
+                Explore destinations
+              </a>
+            </div>
+          </article>
+
+          <article class="package-card">
+            <img
+              class="package-image"
+              src="../assets/image/imag3.png"
+              alt="People and landscapes of Ethiopia's Omo Valley"
+              loading="lazy"
+            />
+            <div class="package-content">
+              <p class="package-category">Culture &amp; Community</p>
+              <h3 class="package-title">Meet living traditions</h3>
+              <p>
+                Learn about the many cultures, food traditions, music, and
+                community life that make Ethiopia wonderfully diverse.
+              </p>
+              <a class="package-link" href="#adventure">
+                Discover cultural places
+              </a>
+            </div>
+          </article>
+
+          <article class="package-card">
+            <img
+              class="package-image"
+              src="../assets/image/image4.png"
+              alt="Mountain ridges and highland scenery in the Simien Mountains"
+              loading="lazy"
+            />
+            <div class="package-content">
+              <p class="package-category">Nature &amp; Adventure</p>
+              <h3 class="package-title">Find your wild horizon</h3>
+              <p>
+                Take in dramatic highlands, national parks, remarkable wildlife,
+                and landscapes made for slow, thoughtful exploration.
+              </p>
+              <a class="package-link" href="#adventure">
+                Explore the outdoors
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ==================== ABOUT ==================== -->
+      <section class="about-section" id="about">
+        <div class="about-content">
+          <div class="about-copy">
+            <p class="about-eyebrow">A land of many stories</p>
+            <h2 class="section-title">Get to know Ethiopia</h2>
+            <p>
+              From highland churches and ancient cities to vibrant communities
+              and extraordinary wildlife, Ethiopia offers countless ways to
+              connect with place and history.
+            </p>
+            <p>
+              Visit Ethiopia is a starting point for discovering destinations
+              across the country. Explore at your own pace, learn about local
+              heritage, and seek current guidance before you travel.
+            </p>
+            <a class="about-link" href="#destinations">
+              Browse destinations
+            </a>
+          </div>
+          <img
+            class="about-image"
+            src="../assets/image/image1.png"
+            alt="Historic architecture in Ethiopia"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <!-- ==================== CONTACT ==================== -->
+      <section class="contact-section" id="contact">
+        <div class="section-heading">
+          <h2 class="section-title">Where will you begin?</h2>
+          <p class="section-description">
+            Use this guide to find a place or travel theme that interests you,
+            then plan with up-to-date local information.
+          </p>
+        </div>
+
+        <div class="contact-options">
+          <a class="contact-option" href="#destinations">
+            <span class="contact-option-icon" aria-hidden="true">
+              <i class="fa-solid fa-location-dot"></i>
+            </span>
+            <span class="contact-option-copy">
+              <strong>Browse destinations</strong>
+              <span>See historic sites, highlands, and cultural places.</span>
+            </span>
+            <span class="contact-option-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="contact-option" href="#packages">
+            <span class="contact-option-icon" aria-hidden="true">
+              <i class="fa-solid fa-compass"></i>
+            </span>
+            <span class="contact-option-copy">
+              <strong>Choose an inspiration theme</strong>
+              <span>Explore heritage, community, or outdoor experiences.</span>
+            </span>
+            <span class="contact-option-arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+        <p class="contact-note">
+          Visit Ethiopia is a travel inspiration guide, not a tour operator or
+          booking service.
+        </p>
+      </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="site-footer">
+      <p>
+        &copy; 2026 Visit Ethiopia. Explore, discover, and experience Ethiopia.
+      </p>
+    </footer>
+  </body>
+</html>
